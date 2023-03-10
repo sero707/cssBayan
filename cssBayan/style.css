@@ -1,7 +1,3 @@
-* {
-  transition: 1s all;
-}
-
 .wrapper {
   width: 80vw;
   height: 100vh;
@@ -16,10 +12,14 @@
 .wrapper__body:hover .wrapper__plus {
   display: block;
 }
+.wrapper__body:hover .wrapper__text {
+  color: black;
+}
 .wrapper__text {
   display: flex;
   justify-content: space-between;
   height: 100%;
+  color: blue;
 }
 .wrapper__text_mem {
   padding: 0;
@@ -39,8 +39,8 @@
   margin: 10px auto 0;
 }
 .wrapper__image img {
-  width: 90%;
-  height: 90%;
+  width: 50%;
+  height: 50%;
   display: none;
 }
 .wrapper__section {
@@ -52,5 +52,11 @@
   display: block;
 }
 .wrapper__section:hover .wrapper__image img {
+  display: block;
+}
+.wrapper__section:focus .wrapper__image {
+  display: block;
+}
+.wrapper__section:focus .wrapper__image img {
   display: block;
 }
