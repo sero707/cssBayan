@@ -3,23 +3,23 @@
 }
     .wrapper{
     width: 80vw;
+    height: 100vh;
     margin: 0 auto;
-    &__hr{
-        margin: 0;
-        padding: 0;   
-    }
     &__body{
         cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
         &:hover{
             .wrapper__plus{
                 display: block;
                 }    
         }
-            
     }
     &__text{
         display: flex;
         justify-content: space-between;
+        height: 100%;
         &_mem{
             padding: 0;
             margin: 0;    
@@ -36,18 +36,20 @@
         display: none;
         width: 50%;
         padding-bottom: 20px;
+        margin: 10px auto 0;
         img{
-            width: 100%;
-            height: 100%;
+            width: 90%;
+            height: 90%;
             display: none;   
         }    
     }
     &__section{
         height: 100%;
+        padding: 20px 0;
+        border-top: 1px solid black;
         &:hover{
             .wrapper__image{
                 display: block;
-                margin: 20px 0 auto;
                 img{
                     display: block;    
                 }    
