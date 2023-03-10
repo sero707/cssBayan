@@ -67,3 +67,12 @@
 .wrapper__section:focus .wrapper__plus {
   background: url("img/bold-cross.svg") center center/cover no-repeat;
 }
+@media (max-width: 450px) {
+  .wrapper__text{
+    font-size: 15px;
+  }
+  .wrapper__image img {
+    width: 80%;
+    height: 80%;
+  }
+}
