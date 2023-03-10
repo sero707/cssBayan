@@ -1,0 +1,20 @@
+.wrapper {
+  width: 80vw;
+  margin: 20px auto;
+}
+.wrapper__body {
+  cursor: pointer;
+}
+.wrapper__text {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper__text_mem {
+  padding: 0;
+  margin: 0;
+}
+.wrapper__plus {
+  width: 20px;
+  height: 20px;
+  background: url("img/plus-solid.svg") center center/cover no-repeat;
+}

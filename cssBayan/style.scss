@@ -1,0 +1,21 @@
+.wrapper{
+    width: 80vw;
+    margin: 20px auto;
+    &__body{
+        cursor: pointer;
+    }
+    &__text{
+        display: flex;
+        justify-content: space-between;
+        &_mem{
+            padding: 0;
+            margin: 0;    
+        }
+    }
+    &__plus{
+        width: 20px;
+        height: 20px;
+        background: url("img/plus-solid.svg") center center/cover no-repeat;
+    }
+    
+}
